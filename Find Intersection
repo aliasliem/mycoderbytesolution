@@ -1,0 +1,10 @@
+https://coderbyte.com/editor/Find%20Intersection:Python3
+
+def FindIntersection(strArr):
+  c = [x for x in strArr[0].split(",") if x in strArr[1].split(",")]
+  strArr = ",".join(c).replace(" ", "")
+  # code goes here
+  return strArr
+
+# keep this function call here 
+print(FindIntersection(input()))
